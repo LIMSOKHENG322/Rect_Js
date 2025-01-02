@@ -1,13 +1,31 @@
 import React from 'react'
-import Start_Header from '../Components/Start_Header'
+import StartHeader from '../Components/Home/HomeHeader'
+import HomeHero from '../Components/Home/HomeHero'
+import HomeProduct from '../Components/Home/HomeProduct'
+import HomeStart from '../Components/Home/HomeWhyChoose'
+import HomeWeHelp from '../Components/Home/HomeWeHelp'
+import HomePopularProduct from '../Components/Home/HomePopularProduct'
+import HomeTestimonial from '../Components/Home/HomeTestimonial'
+import HomeBlog from '../Components/Home/HomeBlog'
+import HomeFooter from '../Components/Home/HomeFooter'
 
 const Home = () => {
   return (
     <div>
-      <Start_Header/>
+      <StartHeader/>
+      <HomeHero/>
+      <HomeProduct/>
+      <HomeStart/>
+      <HomeWeHelp/>
+      <HomePopularProduct/>
+      <HomeTestimonial/>
+      <HomeBlog/>
+      <HomeFooter/>
+    
+
 
       {/* <!-- Start Header/Navigation --> */}
-            <nav class="custom-navbar navbar navbar navbar-expand-md navbar-dark bg-dark" arial-label="Furni navigation bar">
+            {/* <nav class="custom-navbar navbar navbar navbar-expand-md navbar-dark bg-dark" arial-label="Furni navigation bar">
 
                <div class="container">
                   <a class="navbar-brand" href="index.html">Furni<span>.</span></a>
@@ -35,12 +53,12 @@ const Home = () => {
                   </div>
                </div>
                   
-            </nav>
+            </nav> */}
 		{/* <!-- End Header/Navigation --> */}
 
 
       {/* <!-- Start Hero Section --> */}
-            <div class="hero">
+            {/* <div class="hero">
                <div class="container">
                   <div class="row justify-content-between">
                      <div class="col-lg-5">
@@ -57,24 +75,22 @@ const Home = () => {
                      </div>
                   </div>
                </div>
-            </div>
+            </div> */}
 		{/* <!-- End Hero Section --> */}
          
 
       {/* <!-- Start Product Section --> */}
-            <div class="product-section">
+            {/* <div class="product-section">
                <div class="container">
                   <div class="row">
 
-                     {/* <!-- Start Column 1 --> */}
                      <div class="col-md-12 col-lg-3 mb-5 mb-lg-0">
                         <h2 class="mb-4 section-title">Crafted with excellent material.</h2>
                         <p class="mb-4">Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate velit imperdiet dolor tempor tristique. </p>
                         <p><a href="shop.html" class="btn">Explore</a></p>
                      </div> 
-                     {/* <!-- End Column 1 --> */}
+          
 
-                     {/* <!-- Start Column 2 --> */}
                      <div class="col-12 col-md-4 col-lg-3 mb-5 mb-md-0">
                         <a class="product-item" href="cart.html">
                            <img src="images/product-1.png" class="img-fluid product-thumbnail"/>
@@ -86,9 +102,7 @@ const Home = () => {
                            </span>
                         </a>
                      </div> 
-                     {/* <!-- End Column 2 --> */}
 
-                     {/* <!-- Start Column 3 --> */}
                      <div class="col-12 col-md-4 col-lg-3 mb-5 mb-md-0">
                         <a class="product-item" href="cart.html">
                            <img src="images/product-2.png" class="img-fluid product-thumbnail"/>
@@ -100,9 +114,7 @@ const Home = () => {
                            </span>
                         </a>
                      </div>
-                     {/* <!-- End Column 3 --> */}
 
-                     {/* <!-- Start Column 4 --> */}
                      <div class="col-12 col-md-4 col-lg-3 mb-5 mb-md-0">
                         <a class="product-item" href="cart.html">
                            <img src="images/product-3.png" class="img-fluid product-thumbnail"/>
@@ -114,16 +126,16 @@ const Home = () => {
                            </span>
                         </a>
                      </div>
-                     {/* <!-- End Column 4 --> */}
+                    
 
                   </div>
                </div>
-            </div>
+            </div> */}
 		{/* <!-- End Product Section --> */}
 
 
       {/* <!-- Start Why Choose Us Section --> */}
-            <div class="why-choose-section">
+            {/* <div class="why-choose-section">
                <div class="container">
                   <div class="row justify-content-between">
                      <div class="col-lg-6">
@@ -182,12 +194,12 @@ const Home = () => {
 
                   </div>
                </div>
-            </div>
+            </div> */}
 		{/* <!-- End Why Choose Us Section --> */}
 
 
       {/* <!-- Start We Help Section --> */}
-            <div class="we-help-section">
+            {/* <div class="we-help-section">
                <div class="container">
                   <div class="row justify-content-between">
                      <div class="col-lg-7 mb-5 mb-lg-0">
@@ -211,12 +223,12 @@ const Home = () => {
                      </div>
                   </div>
                </div>
-            </div>
+            </div> */}
 		{/* <!-- End We Help Section --> */}
 
 
       {/* <!-- Start Popular Product --> */}
-            <div class="popular-product">
+            {/* <div class="popular-product">
                <div class="container">
                   <div class="row">
 
@@ -261,12 +273,12 @@ const Home = () => {
 
                   </div>
                </div>
-            </div>
+            </div> */}
 		{/* <!-- End Popular Product --> */}
 
 
       {/* <!-- Start Testimonial Slider --> */}
-            <div class="testimonial-section">
+            {/* <div class="testimonial-section">
                <div class="container">
                   <div class="row">
                      <div class="col-lg-7 mx-auto text-center">
@@ -306,7 +318,7 @@ const Home = () => {
                                     </div>
                                  </div>
                               </div> 
-                              {/* <!-- END item --> */}
+                            
 
                               <div class="item">
                                  <div class="row justify-content-center">
@@ -329,7 +341,7 @@ const Home = () => {
                                     </div>
                                  </div>
                               </div> 
-                              {/* <!-- END item --> */}
+                      
 
                               <div class="item">
                                  <div class="row justify-content-center">
@@ -352,20 +364,19 @@ const Home = () => {
                                     </div>
                                  </div>
                               </div> 
-                              {/* <!-- END item --> */}
-
+                         
                            </div>
 
                         </div>
                      </div>
                   </div>
                </div>
-            </div>
+            </div> */}
 		{/* <!-- End Testimonial Slider --> */}
 
 
       {/* <!-- Start Blog Section --> */}
-            <div class="blog-section">
+            {/* <div class="blog-section">
                <div class="container">
                   <div class="row mb-5">
                      <div class="col-md-6">
@@ -416,12 +427,13 @@ const Home = () => {
 
                   </div>
                </div>
-            </div>
+            </div> */}
 		{/* <!-- End Blog Section -->	 */}
 
 
       {/* <!-- Start Footer Section --> */}
-		<footer class="footer-section">
+
+		{/* <footer class="footer-section">
 			<div class="container relative">
 
 				<div class="sofa-img">
@@ -507,7 +519,7 @@ const Home = () => {
 				<div class="border-top copyright">
 					<div class="row pt-4">
 						<div class="col-lg-6">
-							<p class="mb-2 text-center text-lg-start">Copyright &copy;<script>document.write(new Date().getFullYear());</script>. All Rights Reserved. &mdash; Designed with love by <a href="https://untree.co">Untree.co</a> Distributed By <a hreff="https://themewagon.com">ThemeWagon</a>  {/* <!-- License information: https://untree.co/license/ --> */}
+							<p class="mb-2 text-center text-lg-start">Copyright &copy;<script>document.write(new Date().getFullYear());</script>. All Rights Reserved. &mdash; Designed with love by <a href="https://untree.co">Untree.co</a> Distributed By <a hreff="https://themewagon.com">ThemeWagon</a> 
             </p>
 						</div>
 
@@ -522,7 +534,8 @@ const Home = () => {
 				</div>
 
 			</div>
-		</footer>
+		</footer> */}
+
 		{/* <!-- End Footer Section -->	 */}
 
 

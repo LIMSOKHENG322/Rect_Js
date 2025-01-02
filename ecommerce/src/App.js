@@ -1,15 +1,23 @@
 import React from 'react';
 import Home from './Pages/Home'
-import shop from'./Pages/shop'
+import Shop from'./Pages/Shop'
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom'
+import About from './Pages/About';
+import Contact from './Pages/Contact';
+import Services from './Pages/Services';
+import Blog from './Pages/Blog';
 
 function App() {
   return (
     <Router>
       <Routes>
           <Route path="/" element={<Navigate to='/home'/>} />
-          <Route path="/home" element={<home/>}/>
-          <Route path="/shop" element={<shop/>}/>          
+          <Route path="/home" element={<Home/>}/>
+          <Route path="/shop" element={<Shop/>}/>
+          <Route path="/aboutus" element={<About/>}/>
+          <Route path="/services" element={<Services/>}/> 
+          <Route path="/blog" element={<Blog/>}/>
+          <Route path="/contactus" element={<Contact/>}/>         
       </Routes>
     </Router>
 
