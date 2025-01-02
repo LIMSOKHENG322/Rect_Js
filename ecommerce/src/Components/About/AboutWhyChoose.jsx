@@ -1,5 +1,9 @@
 import React from 'react'
 import whychooseus from '../images/why-choose-us-img.jpg';
+import truck from '../images/truck.png';
+import bag from '../images/bag.png';
+import support from '../images/support.png';
+import returnimage from '../images/return.png';
 
 const AbiutWhyChoose = () => {
   return (
@@ -14,7 +18,7 @@ const AbiutWhyChoose = () => {
                                     <div class="col-6 col-md-6">
                                         <div class="feature">
                                             <div class="icon">
-                                                <img src="images/truck.svg" alt="Image" class="imf-fluid"/>
+                                                <img src={truck} alt="Image" class="imf-fluid"/>
                                             </div>
                                             <h3>Fast &amp; Free Shipping</h3>
                                             <p>Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate.</p>
@@ -24,7 +28,7 @@ const AbiutWhyChoose = () => {
                                     <div class="col-6 col-md-6">
                                         <div class="feature">
                                             <div class="icon">
-                                                <img src="images/bag.svg" alt="Image" class="imf-fluid"/>
+                                                <img src={bag} alt="Image" class="imf-fluid"/>
                                             </div>
                                             <h3>Easy to Shop</h3>
                                             <p>Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate.</p>
@@ -34,7 +38,7 @@ const AbiutWhyChoose = () => {
                                     <div class="col-6 col-md-6">
                                         <div class="feature">
                                             <div class="icon">
-                                                <img src="images/support.svg" alt="Image" class="imf-fluid"/>
+                                                <img src={support} alt="Image" class="imf-fluid"/>
                                             </div>
                                             <h3>24/7 Support</h3>
                                             <p>Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate.</p>
@@ -44,7 +48,7 @@ const AbiutWhyChoose = () => {
                                     <div class="col-6 col-md-6">
                                         <div class="feature">
                                             <div class="icon">
-                                                <img src="images/return.svg" alt="Image" class="imf-fluid"/>
+                                                <img src={returnimage} alt="Image" class="imf-fluid"/>
                                             </div>
                                             <h3>Hassle Free Returns</h3>
                                             <p>Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate.</p>

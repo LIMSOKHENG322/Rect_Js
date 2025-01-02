@@ -2,7 +2,9 @@ import React from 'react'
 import sofa from '../images/sofa.png';
 import envelope from '../images/envelope-outline.png';
 
-const BlogFooter = () => {
+
+
+const CartFooter = () => {
   return (
     <footer class="footer-section">
 			<div class="container relative">
@@ -90,7 +92,7 @@ const BlogFooter = () => {
 				<div class="border-top copyright">
 					<div class="row pt-4">
 						<div class="col-lg-6">
-							<p class="mb-2 text-center text-lg-start">Copyright &copy;<script>document.write(new Date().getFullYear());</script>. All Rights Reserved. &mdash; Designed with love by <a href="https://untree.co">Untree.co</a> Distributed By <a hreff="https://themewagon.com">ThemeWagon</a>  
+							<p class="mb-2 text-center text-lg-start">Copyright &copy;<script>document.write(new Date().getFullYear());</script>. All Rights Reserved. &mdash; Designed with love by <a href="https://untree.co">Untree.co</a> Distributed By <a hreff="https://themewagon.com">ThemeWagon</a> 
             </p>
 						</div>
 
@@ -109,4 +111,4 @@ const BlogFooter = () => {
   )
 }
 
-export default BlogFooter
+export default CartFooter

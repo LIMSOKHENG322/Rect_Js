@@ -1,7 +1,7 @@
 import React from 'react'
 import person1 from'../images/person-1.png';
 import person5 from '../images/person-1.png';
-import person4 from '../images/person-1.png';
+import person4 from '../images/person_4.png';
 
 const HomeTestimonial = () => {
   return (
@@ -35,7 +35,7 @@ const HomeTestimonial = () => {
 
                                           <div class="author-info">
                                              <div class="author-pic">
-                                                <img src={person1} alt="Maria Jones" class="img-fluid"/>
+                                                <img src={person4} alt="Maria Jones" class="img-fluid"/>
                                              </div>
                                              <h3 class="font-weight-bold">Maria Jones</h3>
                                              <span class="position d-block mb-3">CEO, Co-Founder, XYZ Inc.</span>

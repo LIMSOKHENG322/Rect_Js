@@ -2,7 +2,7 @@ import React from 'react'
 import product3 from '../images/product-3.png';
 import product1 from '../images/product-1.png';
 import product2 from '../images/product-2.png';
-
+import cross from '../images/cross.png';
 
 const untree = () => {
   return (
@@ -18,7 +18,7 @@ const untree = () => {
                   <strong class="product-price">$50.00</strong>
 
                   <span class="icon-cross">
-                    <img src="images/cross.svg" class="img-fluid"/>
+                    <img src={cross} class="img-fluid"/>
                   </span>
                 </a>
               </div> 
@@ -30,7 +30,7 @@ const untree = () => {
                   <strong class="product-price">$50.00</strong>
 
                   <span class="icon-cross">
-                    <img src="images/cross.svg" class="img-fluid"/>
+                    <img src={cross} class="img-fluid"/>
                   </span>
                 </a>
               </div> 
@@ -42,7 +42,7 @@ const untree = () => {
                   <strong class="product-price">$78.00</strong>
 
                   <span class="icon-cross">
-                    <img src="images/cross.svg" class="img-fluid"/>
+                    <img src={cross} class="img-fluid"/>
                   </span>
                 </a>
               </div>
@@ -54,7 +54,7 @@ const untree = () => {
                   <strong class="product-price">$43.00</strong>
 
                   <span class="icon-cross">
-                    <img src="images/cross.svg" class="img-fluid"/>
+                    <img src={cross} class="img-fluid"/>
                   </span>
                 </a>
               </div>
@@ -66,7 +66,7 @@ const untree = () => {
                   <strong class="product-price">$50.00</strong>
 
                   <span class="icon-cross">
-                    <img src="images/cross.svg" class="img-fluid"/>
+                    <img src={cross} class="img-fluid"/>
                   </span>
                 </a>
               </div> 
@@ -78,7 +78,7 @@ const untree = () => {
                   <strong class="product-price">$50.00</strong>
 
                   <span class="icon-cross">
-                    {/* <img src="images/cross.svg" class="img-fluid"> */}
+                    <img src={cross} class="img-fluid"/>
                   </span>
                 </a>
               </div> 
@@ -90,7 +90,7 @@ const untree = () => {
                   <strong class="product-price">$78.00</strong>
 
                   <span class="icon-cross">
-                    <img src="images/cross.svg" class="img-fluid"/>
+                    <img src={cross} class="img-fluid"/>
                   </span>
                 </a>
               </div>
@@ -102,7 +102,7 @@ const untree = () => {
                   <strong class="product-price">$43.00</strong>
 
                   <span class="icon-cross">
-                    <img src="images/cross.svg" class="img-fluid"/>
+                    <img src={cross} class="img-fluid"/>
                   </span>
                 </a>
               </div>

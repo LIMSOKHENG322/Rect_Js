@@ -1,8 +1,9 @@
 import React from 'react'
-import sofa from '../images/sofa.png';
-import envelope from '../images/envelope-outline.png';
+import sofa from "../images/sofa.png";
+import envelopeoutlineimage from '../images/envelope-outline.png';
 
-const BlogFooter = () => {
+
+const ThankYouFooter = () => {
   return (
     <footer class="footer-section">
 			<div class="container relative">
@@ -14,7 +15,7 @@ const BlogFooter = () => {
 				<div class="row">
 					<div class="col-lg-8">
 						<div class="subscription-form">
-							<h3 class="d-flex align-items-center"><span class="me-1"><img src={envelope} alt="Image" class="img-fluid"/></span><span>Subscribe to Newsletter</span></h3>
+							<h3 class="d-flex align-items-center"><span class="me-1"><img src={envelopeoutlineimage} alt="Image" class="img-fluid"/></span><span>Subscribe to Newsletter</span></h3>
 
 							<form action="#" class="row g-3">
 								<div class="col-auto">
@@ -90,7 +91,7 @@ const BlogFooter = () => {
 				<div class="border-top copyright">
 					<div class="row pt-4">
 						<div class="col-lg-6">
-							<p class="mb-2 text-center text-lg-start">Copyright &copy;<script>document.write(new Date().getFullYear());</script>. All Rights Reserved. &mdash; Designed with love by <a href="https://untree.co">Untree.co</a> Distributed By <a hreff="https://themewagon.com">ThemeWagon</a>  
+							<p class="mb-2 text-center text-lg-start">Copyright &copy;<script>document.write(new Date().getFullYear());</script>. All Rights Reserved. &mdash; Designed with love by <a href="https://untree.co">Untree.co</a> Distributed By <a href="https://themewagon.com">ThemeWagon</a> 
             </p>
 						</div>
 
@@ -109,4 +110,4 @@ const BlogFooter = () => {
   )
 }
 
-export default BlogFooter
+export default ThankYouFooter

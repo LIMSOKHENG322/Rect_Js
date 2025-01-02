@@ -5,6 +5,8 @@ import cart from '../images/cart.png';
 
 
 const HomeHeader = () => {
+   
+      
   return (
     <div>
          {/* <!-- Start Header/Navigation --> */}
@@ -27,11 +29,12 @@ const HomeHeader = () => {
                <li><Link class="nav-link" to="/services">Services</Link></li>
                <li><Link class="nav-link" to="/blog">Blog</Link></li>
                <li><Link class="nav-link" to="/contactus">Contact us</Link></li>
+               
             </ul>
 
             <ul class="custom-navbar-cta navbar-nav mb-2 mb-md-0 ms-5">
                <li><a class="nav-link" href="#"><img src={user} /></a></li>
-               <li><a class="nav-link" href="cart.html"><img src={cart} /></a></li>
+               <li><Link class="nav-link" Link to="/cart"><img src={cart} /></Link></li>
             </ul>
          </div>
       </div>
