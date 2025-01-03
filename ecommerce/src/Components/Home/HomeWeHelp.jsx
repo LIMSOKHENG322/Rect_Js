@@ -1,7 +1,7 @@
 import React from 'react'
-import imggrid1 from '../images/img-grid-1.jpg';
-import imggrid2 from '../images/img-grid-2.jpg';
-import imggrid3 from '../images/img-grid-3.jpg';
+import imggrid1 from '../images/img-grid-1.png';
+import imggrid2 from '../images/img-grid-2.png';
+import imggrid3 from '../images/img-grid-3.png';
 
 const HomeWeHelp = () => {
   return (
@@ -16,14 +16,14 @@ const HomeWeHelp = () => {
              </div>
           </div>
           <div class="col-lg-5 ps-lg-5">
-             <h2 class="section-title mb-4">We Help You Make Modern Interior Design</h2>
-             <p>Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate velit imperdiet dolor tempor tristique. Pellentesque habitant morbi tristique senectus et netus et malesuada</p>
+             <h2 class="section-title mb-4">We Help Your Everyday Essential With Polo Brand</h2>
+             <p>Make a statement with the Urban Vibe Graphic T-Shirt. Featuring bold, trend-forward designs, this shirt is made from high-quality fabric that feels as good as it looks. Pair it with jeans or joggers for effortless style.</p>
 
              <ul class="list-unstyled custom-list my-4">
-                <li>Donec vitae odio quis nisl dapibus malesuada</li>
-                <li>Donec vitae odio quis nisl dapibus malesuada</li>
-                <li>Donec vitae odio quis nisl dapibus malesuada</li>
-                <li>Donec vitae odio quis nisl dapibus malesuada</li>
+                <li>Stay cool and stylish with our Relaxed Fit </li>
+                <li>Dress it up or down for any occasion</li>
+                <li>Designed for comfort, this lightweight shirt is perfect for sunny days.</li>
+                <li>it’s the perfect blend of casual and polished, ideal for work or weekend outings.</li>
              </ul>
              <p><a herf="#" class="btn">Explore</a></p>
           </div>

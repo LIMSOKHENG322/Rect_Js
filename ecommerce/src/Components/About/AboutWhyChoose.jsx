@@ -1,5 +1,5 @@
 import React from 'react'
-import whychooseus from '../images/why-choose-us-img.jpg';
+import whychooseus from '../images/why-choose-us-img.png';
 import truck from '../images/truck.png';
 import bag from '../images/bag.png';
 import support from '../images/support.png';

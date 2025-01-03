@@ -1,5 +1,5 @@
 import React from 'react'
-import couch from '../images/couch.png';
+import BAshop from '../images/BAshop.png';
 
 
 const ServicesHero = () => {
@@ -16,7 +16,7 @@ const ServicesHero = () => {
                             </div>
                             <div class="col-lg-7">
                                 <div class="hero-img-wrap">
-                                    <img src={couch} class="img-fluid"/>
+                                    <img src={BAshop} class="img-fluid"/>
                                 </div>
                             </div>
                         </div>

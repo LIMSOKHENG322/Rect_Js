@@ -7,9 +7,6 @@ import HomeHeader from '../Components/Home/HomeHeader'
 const ThankYou = () => {
   return (
     <div>
-      <HomeHeader/>
-      <ThankYouFooter/>
-      <ThankYouHero/>
       <ThankYouUntree/>
     </div>
   )

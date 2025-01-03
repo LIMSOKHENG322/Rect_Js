@@ -3,6 +3,7 @@ import HomeHeader from '../Components/Home/HomeHeader'
 import CartFooter from '../Components/Cart/CartFooter'
 import CartHero from '../Components/Cart/CartHero'
 import CartUntree from '../Components/Cart/CartUntree'
+import HomeFooter from '../Components/Home/HomeFooter'
 
 const Cart = () => {
   return (
@@ -10,7 +11,7 @@ const Cart = () => {
         <HomeHeader/>
         <CartHero/>
         <CartUntree/>
-        <CartFooter/>
+        <HomeFooter/>
     </div>
   )
 }
